@@ -11,3 +11,8 @@
 * location accounts, users are always at a location.
 * potential answers are only visible on the TV app (at that location).
 * phone app has the question, a grid to chose an answer, but the answers are not shown (only A/B/C/D)
+* John inbetween questions only
+* have dashbosrfs per bar snd nationwide 
+* give players intelligence in how they're ranking
+* track trivia categories past abd upcoming
+* https://opentdb.com/

@@ -26,4 +26,6 @@
 ## Other factors
 
 * Implement a version with HTTP/REST and another using SignalR, Go Channels, and WebSockets. So independent implementations in .NET. Go-lang, Java (perhaps with and without SpringBoot), JavaScript.
+* build a TDD version of the logic, then add (SI, DB, UI, etc) stuff in. PD-first
+* how should the PD handle the realtime updates w/testing?
 

@@ -28,8 +28,18 @@
 * Implement a version with HTTP/REST and another using SignalR, Go Channels, and WebSockets. So independent implementations in .NET. Go-lang, Java (perhaps with and without SpringBoot), JavaScript.
 * build a TDD version of the logic, then add (SI, DB, UI, etc) stuff in. PD-first
 * how should the PD handle the realtime updates w/testing? A: channels/messaging w/ interrupts/event-handlers?
-* deal with cirical timing, like the last few seconds (nevermind the whole duration) of a question. Same with the time-until-next-question/round tracking.
+* deal with critical timing, like the last few seconds (never mind the whole duration) of a question. Same with the time-until-next-question/round tracking.
 * maybe use a 'diary' over, say, a BullMQ/Agenda.js sort of solution (at the PD-level). Hmmm. 
-* play the re=joinable music! make the proble, at the PD-level, all about a script. the system (servers, clients) must be able to safely and correctly re-join the script (already in-progress) as needed. TDD should use this, including injecting dis-/re-connect scenarios.
+* play the re=joinable music! make the probable, at the PD-level, all about a script. the system (servers, clients) must be able to safely and correctly re-join the script (already in-progress) as needed. TDD should use this, including injecting dis-/re-connect scenarios.
 
+## Phases
 
+I need to find a way to `mmd` a cycle/circular graphic. The cycle in question would be:
+
+1. assemble
+2. play
+3. archive
+
+Maybe concentric rings?
+
+Actually, this is probably a timeline. Hmm. About that.
